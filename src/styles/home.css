@@ -1,0 +1,99 @@
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: burlywood;
+}
+.sidebar .content {
+    padding-top: 4rem;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+.content h4 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    color: #111;
+}
+
+.content .links {
+    padding-block: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: #111;
+    text-decoration: none;
+
+}
+.content .links:hover {
+    color:brown;
+    font-weight: bold;
+}
+.btn-signout {
+    padding: .6rem 1.3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: brown;
+    transition: .5s ease;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 1rem;
+}
+.btn-signout:hover {
+    padding: .6rem 1.6rem;
+
+}
+.main-content h4 {
+    text-align: center;
+}
+
+#light {
+    background-color: #f1f1f1;
+    color: #111;
+}
+#dark {
+    background-color: #353131;
+    color: #fff;
+}
+
+.main-content header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 10px;
+}
+.main-content header nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+
+.main-content {
+    height: 100vh;
+}
+
+
+#dark .sidebar {
+    background-color: rgb(245, 206, 154);
+}
+
+.render-section {
+    max-width: 700px;
+    margin: 3rem auto 0 500px;
+    background-color: inherit;
+    height: fit-content;
+    padding: 2rem;
+}
+
+.active {
+    background-color: lightsalmon;
+    border-radius: 5px;
+    font-weight: bold;
+}

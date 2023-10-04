@@ -1,0 +1,10 @@
+.title-table {
+    text-align: center;
+    padding-block: .3rem;
+}
+.width {
+    min-width: 150px;
+}
+tbody button {
+    width: 100%;
+}

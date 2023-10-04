@@ -1,0 +1,14 @@
+.title {
+    font-size: 2rem;
+    padding-block: 1rem;
+}
+.table {
+    border-radius: 15px;
+}
+
+.credit-wrapper {
+    text-align: center;
+    line-height: 3rem;
+    display: grid;
+    gap: 1rem;
+}
